@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+    color: black;
+}
+.clear{
+    clear: both;
+}
+
+
+
+.container{
+    margin: auto;
+    width:70%;
+    padding: 4px;
+    
+}
+
+.container h1{
+    padding:2px;
+    margin:2px;
+}
+.container p{
+    padding:2px;
+    margin:2px;
+}
+
+#mainheader{
+    background-color: coral;
+    color: wheat;
+    text-align: center;
+}
+#navbar{
+    color: white;
+    background-color: rgb(51, 53, 53);
+}
+
+#navbar ul{
+    list-style: none;
+    font-size: large;
+}
+#navbar li{
+    display: inline;
+    padding-right: 3%;  
+}
+#navbar a{
+    color: white; 
+}
+
+#showcase{
+    
+    border: 1px solid red;
+    background-image: url('../images/bk.jfif');
+    min-height: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+#showcase p{
+    font-size: xx-large;
+    /* line-height: 1.5em; */
+    padding:1.2em;
+    line-height: 1.2em;
+}
+
+#main{
+    border: 3px black solid;
+    padding: 5px;
+    margin-top: 5 px;
+    float: left;
+    width: 69%;
+    line-height: 1.2em;
+    font-size: x-large;
+    box-sizing: border-box;
+}
+.container #main{
+    margin-top:1%;
+}
+#footbar{
+    border: 5px black dotted;
+    padding-left: 15px;
+    margin:5px;
+    float:right;
+    width: 28%;
+    box-sizing: border-box;
+    background-color: pink;
+    line-height: 1.2em;
+    font-size: large;
+}
+#footer{
+    border: 1px black solid;
+    margin-top: 20px;;
+    padding: 10px;
+    text-align: center;
+}
+
+@media(max-width:700px){
+    #main{
+        float:none;
+        width:100%
+    }
+    #footbar{
+        float:none;
+        width:100%
+    }
+}
