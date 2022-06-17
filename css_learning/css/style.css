@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    color:rgb(231, 85, 1);
+    font: bold;
+    margin:3%; 
+    background-color: antiquewhite;
+}
+.submit{
+    color: #fff;
+    background-color: #333;
+    padding: 0.2em;
+}
+.space{
+    padding-top: 500px;
+}
+a{
+    text-decoration: none;
+    color: rgb(3, 21, 21);
+}
+
+a:hover{
+    color:gray;
+    text-decoration:underline;
+}
+
+.clear{
+    clear: both;
+}
+
+.box1{
+    color: rgb(23, 8, 1);
+    border: 5px rgb(116, 59, 165) solid;
+    padding: 20px;
+    margin: 10px;
+}
+.container{
+    margin: auto;
+    color: rgb(0, 0, 0);
+    width: 80%;  
+}
+.box1 h1{
+    color: rgb(89, 218, 9);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-shadow:3em;
+    letter-spacing: 0.1em;
+}
+
+.box2{
+    border: 7px rgb(116, 59, 165) dotted;
+    padding: 20px;
+    margin: 10px;
+}
+.box2 h1{
+    color: rgb(31, 139, 171);
+}
+
+.menu{
+    
+    border: 1px black solid;
+    border-radius: 5px;
+    
+    padding:10px;
+    margin: 10px;
+    margin-right: 10px;
+}
+.menu h3{
+    color:rgb(25, 221, 156);
+    text-decoration: underline;
+    text-align: center;
+}
+.menu ul
+{
+    padding-left: 10px;
+    list-style: none;
+}
+.menu li{
+    padding-bottom: 5px;
+    border-bottom: 1px black solid;
+    list-style: url('../image/check.jpg');
+    width: 98%;
+}
+
+.myform{
+    padding:15px;
+}
+.myform .form-grp{
+    padding: 5px;
+    color: rgb(0, 165, 44);
+}
+.myform label{
+    display: block;
+}
+.myform input[type = "text"], .myform textarea{
+    padding:8px;
+    width:90%;
+}
+
+.block{
+    float: left;
+    width: 29%;
+    border: 1px solid rgb(2, 2, 2);
+    padding: 10px;
+    margin:1%;
+    box-sizing: border-box; 
+}
+
+#mainBlock{
+    margin-top: 3%;
+    margin-left: 10px;;
+    float: left;
+    width:70%;
+    color:black;
+    box-sizing: border-box; 
+}
+#navi{
+    float: right;
+    width: 28%;
+    background-color: black;
+    color: wheat;
+    padding:1%;
+    border-radius: 5%;
+    box-sizing: border-box; 
+    margin-top: 1%;
+}
+
+.p-box{
+    color:black;
+    border: 1px black solid;
+    margin:1%; 
+    width: 90%;
+    height: 400px;
+    position: relative;
+    background-image: url('../image/bk.jfif');
+    background-position: center center;
+    
+}
+  
+
+.p-box h1{
+    position: absolute;
+    top:30px;
+    left: 80px;
+}
+.p-box h2{
+    position: absolute;
+    bottom:30px;
+    right: 70px;
+}
+.fix-me{
+    position: fixed;
+    top:400px;
+    left: 0px;;
+}
+
+#lists :first-child{
+    background-color: blue;
+}
+#lists :nth-child(5){
+    background-color: yellow;
+}
+#lists :nth-child(8){
+    background: url('../image/bk.jfif');
+}
+
+
